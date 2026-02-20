@@ -1,0 +1,6 @@
+flowchart LR
+  SF[Salesforce Events] --> EB[Event Bus]
+  EB --> OR[Orchestration Consumers]
+  OR --> API[External API]
+  API --> OR
+  OR --> SFU[Salesforce Updates]

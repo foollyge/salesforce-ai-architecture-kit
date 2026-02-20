@@ -1,0 +1,12 @@
+flowchart TB
+  subgraph TenantA[Tenant A]
+    A1[Data]
+    A2[Policies]
+  end
+  subgraph TenantB[Tenant B]
+    B1[Data]
+    B2[Policies]
+  end
+  OR[Orchestration Layer]
+  OR --> TenantA
+  OR --> TenantB

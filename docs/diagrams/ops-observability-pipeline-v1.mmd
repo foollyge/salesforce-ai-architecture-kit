@@ -1,0 +1,8 @@
+flowchart LR
+  OR[Orchestration Runtime] --> LOG[Structured Logs]
+  OR --> MET[Metrics]
+  OR --> TRA[Traces]
+  LOG --> OBS[Observability Platform]
+  MET --> OBS
+  TRA --> OBS
+  OBS --> AL[Alerting]

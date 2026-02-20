@@ -1,0 +1,6 @@
+flowchart LR
+  U[User Identity] --> IDP[Identity Provider]
+  IDP --> TOK[Access Token]
+  TOK --> OR[Orchestration Layer]
+  OR --> SF[Salesforce APIs]
+  OR --> MP[Model Provider APIs]

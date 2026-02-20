@@ -1,0 +1,6 @@
+flowchart TD
+  A[Alert Triggered] --> T[Triage]
+  T --> D[Diagnose]
+  D --> F[Fix or Rollback]
+  F --> V[Verify Recovery]
+  V --> P[Post-Incident Review]

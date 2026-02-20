@@ -1,0 +1,17 @@
+sequenceDiagram
+  participant U as User
+  participant C as Channel
+  participant O as Orchestration
+  participant P as Policy Engine
+  participant M as Model
+  participant S as Salesforce
+  U->>C: Request
+  C->>O: Normalized input
+  O->>P: Policy checks
+  P-->>O: Allowed
+  O->>M: Prompt + context
+  M-->>O: Candidate response
+  O->>S: Optional tool action
+  S-->>O: Result
+  O-->>C: Final response
+  C-->>U: Response

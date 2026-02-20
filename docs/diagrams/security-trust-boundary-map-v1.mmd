@@ -1,0 +1,14 @@
+flowchart TB
+  subgraph Trusted[Trusted Enterprise Boundary]
+    SF[Salesforce Org]
+    OR[Orchestration Service]
+    PE[Policy Enforcement]
+  end
+  subgraph External[External Boundary]
+    MP[Model Providers]
+    API[External APIs]
+  end
+  SF <--> OR
+  OR <--> PE
+  OR <--> MP
+  OR <--> API

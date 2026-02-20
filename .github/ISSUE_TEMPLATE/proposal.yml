@@ -1,0 +1,25 @@
+name: Architecture Proposal
+about: Propose a new ADR, pattern, or blueprint
+labels: [proposal]
+body:
+  - type: input
+    id: scope
+    attributes:
+      label: Scope
+      description: What architecture problem does this proposal solve?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include constraints, dependencies, and current state.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Proposed Deliverables
+      description: ADRs, patterns, diagrams, governance updates.
+    validations:
+      required: true

@@ -1,0 +1,6 @@
+flowchart LR
+  DEV[Developer PR] --> CI[CI Validation]
+  CI --> REV[Architecture Review]
+  REV --> STG[Staging Deploy]
+  STG --> EVAL[Evaluation Gates]
+  EVAL --> PROD[Production Promotion]

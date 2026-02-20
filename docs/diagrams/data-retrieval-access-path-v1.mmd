@@ -1,0 +1,7 @@
+flowchart LR
+  Q[User Query] --> R[Retriever]
+  R --> I[Index]
+  I --> K[Ranked Knowledge Chunks]
+  K --> O[Orchestrator]
+  O --> M[Model Inference]
+  M --> A[Answer with grounding]

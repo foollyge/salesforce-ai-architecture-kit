@@ -1,0 +1,23 @@
+name: Documentation or Validation Bug
+about: Report an error in architecture docs, links, or CI checks
+labels: [bug]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or Path
+      description: Where is the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem Description
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
